@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "934979209843",
+    "firebase_url": "https://sapi-2c11a.firebaseio.com",
+    "project_id": "sapi-2c11a",
+    "storage_bucket": "sapi-2c11a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934979209843:android:7eb6f13dc58460c614f806",
+        "android_client_info": {
+          "package_name": "com.aslam.sapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934979209843-lmta02lb61d3hjrg7lnidcsa9bg8qdpn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aslam.sapi",
+            "certificate_hash": "11d1c30e45dea44b79d82b28a00e681281129192"
+          }
+        },
+        {
+          "client_id": "934979209843-vbq9lq1qvo6o8lgm47iooag1n78vi7hd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0qvwixT-ETsIqo0swgiS0dXEqyjcgxaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934979209843-vbq9lq1qvo6o8lgm47iooag1n78vi7hd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".ShowResults"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:text="current hazard percentage"
+        android:textSize="20dp" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <ProgressBar
+
+            android:id="@+id/circularProgressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="50"
+            android:layout_centerInParent="true"
+            android:progressDrawable="@drawable/circular"
+            android:secondaryProgress="100"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/whitecircle"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:text="25%"
+            android:layout_centerInParent="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnPast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="view past records"
+        android:shadowColor="@color/colorPrimary"/>
+
+
+
+</LinearLayout>
